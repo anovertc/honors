@@ -57,7 +57,7 @@ const SurveyForm: React.FC = () => {
       alert("Please add and rate at least 5 senior electives.");
       return;
     }
-    fetch('http://localhost:3001/api/submit', {
+    fetch('https://honors-xuw5.onrender.com/api/submit', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData)
