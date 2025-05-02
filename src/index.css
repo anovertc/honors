@@ -1,0 +1,97 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #242424;
+  overflow-y: auto;
+}
+
+form, h1, h2, h3, p, label {
+  text-align: center;
+}
+
+button {
+  margin: 0 auto;
+}
+
+/* Custom layout helpers */
+.survey-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.survey-form {
+  width: 100%;
+  max-width: 800px;
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.survey-heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.survey-group {
+  margin-bottom: 2rem;
+}
+
+.survey-input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.extra-notes-box {
+  margin: 2rem auto;
+  width: 50%;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 6px;
+  color: black;
+  text-align: left;
+}
+
+.survey-submit {
+  margin-top: 2rem;
+}
+
+.survey-button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.survey-button:hover {
+  background-color: #2563eb;
+}
+
+.spaced-box {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+
+
