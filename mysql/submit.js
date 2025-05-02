@@ -125,6 +125,9 @@ router.get('/export/electives', async (req, res) => {
   }
 });
 
+router.get('/test', (req, res) => res.send('✅ It works!'));
+
+
 export default router;
 
 
